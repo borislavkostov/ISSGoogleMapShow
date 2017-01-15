@@ -1,8 +1,4 @@
-<%-- 
-    Document   : index
-    Created on : Jan 14, 2017, 9:42:32 PM
-    Author     : templars1914
---%>
+
 
 <%@page import="issPosition.lonlat"%>
 
