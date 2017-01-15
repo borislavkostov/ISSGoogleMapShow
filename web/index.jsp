@@ -9,17 +9,20 @@
     <head>
         <style>
             #map {
-                height: 400px;
-                width: 50%;
+                height: 600px;
+                width: 100%;
             }
         </style>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="icon" href="https://cdn4.iconfinder.com/data/icons/REALVISTA/networking/png/48/satellite.png" />
         <title>ISS Position</title>
     </head>
 
     <body>
+        
         <%lonlat position = new lonlat();%>
-        <div id="latitude">Latitude: <%= String.format("%.3f", position.getLatitude())%></br>
+        <div id="latitude"><h3>Position of ISS</h3>
+            Latitude: <%= String.format("%.3f", position.getLatitude())%>
             Longitude: <%=String.format("%.3f", position.getLongitude())%></div>
         <div id="map"></div>
         <script>setTimeout(function () {
